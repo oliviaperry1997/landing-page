@@ -89,6 +89,7 @@ body {
     border: none;
     border-radius: 8px;
     padding: 8px 32px;
+    max-width: 200px;
 }
 
 .info-block {
@@ -153,4 +154,57 @@ body {
 .quote-container h3 {
     font-weight: 700;
     align-self: flex-end;
+}
+
+.calltoaction-block {
+    padding: 100 200px;
+}
+
+.calltoaction-container {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    margin: 100px 200px;
+    padding: 48px 100px;
+    justify-content: space-between;
+}
+
+.calltoaction-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.calltoaction-text h3 {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.calltoaction-text p {
+    color: #e5e7eb;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.calltoaction-container .signup {
+    border: solid #f9faf8 2px;
+    flex: 0 0 auto;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color:#e5e7eb;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 48px;
 }
